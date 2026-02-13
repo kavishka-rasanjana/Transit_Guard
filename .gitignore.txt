@@ -1,11 +1,10 @@
-# React / Node
-node_modules/
-dist/
-.env
-
-# .NET / Visual Studio
+# Visual Studio temporary files (අනවශ්‍ය ෆයිල්)
 .vs/
 bin/
 obj/
 *.user
-appsettings.Development.json
+
+# Node / React temporary files
+node_modules/
+dist/
+.env

@@ -36,3 +36,4 @@ C:\Users\krasa\Desktop\New folder\PassengerReportAPI\PassengerReportAPI\obj\Debu
 C:\Users\krasa\Desktop\New folder\PassengerReportAPI\PassengerReportAPI\obj\Debug\net8.0\PassengerReportAPI.genruntimeconfig.cache
 C:\Users\krasa\Desktop\New folder\PassengerReportAPI\PassengerReportAPI\obj\Debug\net8.0\ref\PassengerReportAPI.dll
 C:\Users\krasa\Desktop\New folder\PassengerReportAPI\PassengerReportAPI\bin\Debug\net8.0\PassengerReportAPI.staticwebassets.runtime.json
+C:\Users\krasa\Desktop\New folder\PassengerReportAPI\PassengerReportAPI\obj\Debug\net8.0\PassengerReportAPI.sourcelink.json
