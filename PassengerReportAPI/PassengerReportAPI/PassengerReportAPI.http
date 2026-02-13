@@ -1,0 +1,6 @@
+@PassengerReportAPI_HostAddress = http://localhost:5191
+
+GET {{PassengerReportAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

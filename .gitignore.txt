@@ -1,0 +1,11 @@
+# React / Node
+node_modules/
+dist/
+.env
+
+# .NET / Visual Studio
+.vs/
+bin/
+obj/
+*.user
+appsettings.Development.json
