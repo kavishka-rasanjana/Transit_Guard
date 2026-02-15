@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PassengerReportAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa07861c7c1de0113de7286056e28920386869be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c76b8cd3201b0961de61f03565bda60be35eb98f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PassengerReportAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PassengerReportAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

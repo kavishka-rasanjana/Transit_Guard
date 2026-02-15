@@ -1,8 +1,7 @@
-wwwroot\uploads\331e94be-a49b-4600-a42c-8834f01966be_ITBIN-2211-0330 (Assignment01).pdf
-wwwroot\uploads\5b52251b-405c-4699-8881-a0252b84d2de_Project Proposal.pdf
-wwwroot\uploads\5d973ae3-27bd-40e1-a19c-073a0eb3c7d7_Project Proposal.pdf
-wwwroot\uploads\8867e13c-0664-4e92-8a6a-710ffaf828e7_ITBIN-2211-0330 (Assignment01).pdf
-wwwroot\uploads\8b5b7ba3-1c4a-4eef-ac52-0f9e97f3a8dc_ITBIN-2211-0330 (Assignment01).pdf
-wwwroot\uploads\b4701946-e88c-4878-9719-b94327562250_Project Proposal.pdf
-wwwroot\uploads\d0208f88-0b6a-4951-bfa0-d4e7eb0003fc_ITBIN-2211-0330 (Assignment01).pdf
-wwwroot\uploads\d1b95424-49bf-48c5-8e2b-03037b2bb451_Project Proposal.pdf
+wwwroot\uploads\.pdf
+wwwroot\uploads\aba7818c-6618-4cf2-90da-0dde208d0f0c_Project Proposal.pdf
+wwwroot\uploads\dc5d8697-92b8-436d-a8c9-f257e38bbbd7_Project Proposal.pdf
+wwwroot\uploads\2ace14c7-1c79-4465-a6f3-4de650640495_Project Proposal.pdf
+wwwroot\uploads\21f08247-6dbe-41db-82a4-f794efefcbd7_Day 2.pdf
+wwwroot\uploads\039bd0c0-b586-49f1-97f8-4d2b12812ecf_id1.jpeg
+wwwroot\uploads\48c5a500-2584-4c3f-b19c-f21b9a567145_do.jpeg
