@@ -84,6 +84,16 @@
                   "CurrentLocation": {
                     "type": "string"
                   },
+                  "Priority": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Province": {
+                    "type": "string"
+                  },
+                  "District": {
+                    "type": "string"
+                  },
                   "EvidenceFiles": {
                     "type": "array",
                     "items": {
@@ -112,6 +122,15 @@
                 "CurrentLocation": {
                   "style": "form"
                 },
+                "Priority": {
+                  "style": "form"
+                },
+                "Province": {
+                  "style": "form"
+                },
+                "District": {
+                  "style": "form"
+                },
                 "EvidenceFiles": {
                   "style": "form"
                 }
@@ -119,6 +138,56 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ViolationType": {
+      "get": {
+        "tags": [
+          "ViolationType"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ViolationType"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ViolationType"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ViolationType"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ViolationType/seed-data": {
+      "post": {
+        "tags": [
+          "ViolationType"
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -185,6 +254,24 @@
               "type": "string"
             },
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ViolationType": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "priorityScore": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

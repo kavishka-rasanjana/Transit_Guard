@@ -68,11 +68,56 @@
         "IsRequired": false
       },
       {
+        "Name": "Priority",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Province",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "District",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "EvidenceFiles",
         "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PassengerReportAPI.Controllers.ViolationTypeController",
+    "Method": "GetViolationTypes",
+    "RelativePath": "api/ViolationType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PassengerReportAPI.Models.ViolationType, PassengerReportAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PassengerReportAPI.Controllers.ViolationTypeController",
+    "Method": "SeedData",
+    "RelativePath": "api/ViolationType/seed-data",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

@@ -13,15 +13,15 @@ namespace PassengerReportAPI.Services
             var mongoClient = new MongoClient(mongoDBSettings.Value.ConnectionString);
             var mongoDatabase = mongoClient.GetDatabase(mongoDBSettings.Value.DatabaseName);
 
-            _violationsCollection = mongoDatabase.GetCollection<ViolationReport>(
-                mongoDBSettings.Value.CollectionName);
+            // Connects to 'ViolationReports' collection
+            _violationsCollection = mongoDatabase.GetCollection<ViolationReport>("ViolationReports");
         }
 
-        // Data Save function 
+        // Saves a new report
         public async Task CreateAsync(ViolationReport newReport) =>
             await _violationsCollection.InsertOneAsync(newReport);
 
-        // ALL data Function
+        // Gets all reports
         public async Task<List<ViolationReport>> GetAsync() =>
             await _violationsCollection.Find(_ => true).ToListAsync();
     }
