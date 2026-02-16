@@ -1,0 +1,37 @@
+# =========================
+# .NET / C# (Backend)
+# =========================
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userprefs
+*.launchSettings.json
+
+# Exclude sensitive config files (Optional)
+appsettings.Development.json
+appsettings.local.json
+
+# =========================
+# React / Node.js (Frontend)
+# =========================
+node_modules/
+build/
+dist/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
