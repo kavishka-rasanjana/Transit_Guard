@@ -1,7 +1,0 @@
-wwwroot\uploads\.pdf
-wwwroot\uploads\aba7818c-6618-4cf2-90da-0dde208d0f0c_Project Proposal.pdf
-wwwroot\uploads\dc5d8697-92b8-436d-a8c9-f257e38bbbd7_Project Proposal.pdf
-wwwroot\uploads\2ace14c7-1c79-4465-a6f3-4de650640495_Project Proposal.pdf
-wwwroot\uploads\21f08247-6dbe-41db-82a4-f794efefcbd7_Day 2.pdf
-wwwroot\uploads\039bd0c0-b586-49f1-97f8-4d2b12812ecf_id1.jpeg
-wwwroot\uploads\48c5a500-2584-4c3f-b19c-f21b9a567145_do.jpeg
