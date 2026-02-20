@@ -1,22 +1,38 @@
-import ViolationForm from './ViolationForm';
+// ============================================================
+// APP.TSX - Root Application Component
+// Sets up React Router with all routes.
+// Uses Layout component for authenticated pages and
+// standalone Login page.
+// ============================================================
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layout from './components/layout/Layout';
+import Login from './pages/Login';
+import Dashboard from './pages/Dashboard';
+import Complaints from './pages/Complaints';
+import ComplaintDetail from './pages/ComplaintDetail';
+import MapMonitoring from './pages/MapMonitoring';
+import Accounts from './pages/Accounts';
+import Reports from './pages/Reports';
 
 function App() {
   return (
-    // CSS CLASSES EXPLAINED:
-    // 1. min-vh-100: Sets the minimum height to 100% of the viewport (Full screen height)
-    // 2. w-100: Sets the width to 100% to ensure the background covers everything
-    // 3. d-flex: Enables Flexbox layout
-    // 4. justify-content-center: Centers the content horizontally (Left to Right)
-    // 5. align-items-center: Centers the content vertically (Top to Bottom)
-    // 6. bg-light: Adds a light gray background color for better contrast
-    <div className="min-vh-100 w-100 d-flex justify-content-center align-items-center bg-light">
-      
-      {/* The Container component handles responsive width and spacing (margins/padding) */}
-      <div className="container">
-        <ViolationForm />
-      </div>
+    <BrowserRouter>
+      <Routes>
+        {/* Login page - standalone (no sidebar/header) */}
+        <Route path="/login" element={<Login />} />
 
-    </div>
+        {/* Authenticated routes - wrapped in Layout (sidebar + header) */}
+        <Route element={<Layout />}>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/complaints" element={<Complaints />} />
+          <Route path="/complaints/:id" element={<ComplaintDetail />} />
+          <Route path="/map" element={<MapMonitoring />} />
+          <Route path="/accounts" element={<Accounts />} />
+          <Route path="/reports" element={<Reports />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
